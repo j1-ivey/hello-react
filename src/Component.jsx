@@ -18,8 +18,8 @@ export default function Component() {
             <p>Mi componente</p>
             <input type="text" value={text} onChange={textOnChange}/>
             <button onClick={buttonOnClick}>Actualizar</button>
-            <p>Texto input: {text}</p>
-            <p>Texto actualizado: {updated}</p>
+            <p>Texto input = {text}</p>
+            <p>Texto actualizado = {updated}</p>
             </div>
     )
 }
